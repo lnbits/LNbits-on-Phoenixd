@@ -1,6 +1,8 @@
 # LNbits on Phoenixd
 
-Video tutorial using lunanode: 
+Video tutorial using lunanode VPS:
+
+https://www.youtube.com/watch?v=t28coHBX3aI
 
 (We use screen sessions in the video tutorial to run but for production systemctl would make more sense)
 
