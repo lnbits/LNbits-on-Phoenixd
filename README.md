@@ -1,9 +1,10 @@
-# LNbits on Pheonixd
+# LNbits on Phoenixd
 
 Video tutorial using lunanode: 
 
 (We use screen sessions in the video tutorial to run but for production systemctl would make more sense)
 
+(Yvettes more comprehensive wonderful guide with systemd files https://github.com/arbadacarbaYK/LNbits.on.phoenixd.on.MacOS/blob/main/Ubuntu.md)
 ### Install Pheonixd
 
 https://github.com/ACINQ/phoenixd/releases/
@@ -15,8 +16,10 @@ unzip phoenix-0.3.4-linux-x64.zip
 cd phoenix-0.3.4-linux-x64/
 chmod +x phoenixd
 chmod +x phoenix-cli
-phoenixd --standalone
-boltzcli wallet create lnbits lbtc
+./phoenixd
+cd /home/ubuntu/.phoenix
+cat seed.dat # Put your pheonixd seed somewhere safe!
+cat phoenixd.conf # Copy the api key for phoenixd
 ```
 
 ### Install LNbits
